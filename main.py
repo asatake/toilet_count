@@ -18,7 +18,7 @@ consumer_secret = oauth_config['consumer_secret']
 token = oauth_config['token']
 token_secret = oauth_config['token_secret']
 
-# oauth情報を記憶
+# OAuth情報を記憶
 oauth = tw.OAuth(
     consumer_key=consumer,
     consumer_secret=consumer_secret,
