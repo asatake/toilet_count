@@ -1,1 +1,1 @@
-web: gunicorn toilet_count:app --log-file=-
+python toilet_count:app --log-file=-
