@@ -1,1 +1,1 @@
-python toilet_count:app --log-file=-
+py: python main.py
