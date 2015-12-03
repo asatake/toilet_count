@@ -110,7 +110,7 @@ for msg in tw_us.user():
     try:
         if 'text' in msg:
             txt = msg['text']
-            pat = re.compile('トイレ|ﾄｲﾚ|toilet|toire')
+            pat = re.compile('トイレ|ﾄｲﾚ|toire')
             user = msg['user']['screen_name']
             # トイレとつぶやいていたらdbに追加・加算
             if 'text' in msg and (pat.search(txt)):
