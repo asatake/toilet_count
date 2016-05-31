@@ -14,8 +14,4 @@ def count_reset():
     conn.close()
 
 
-while True:
-    now = time.gmtime()
-    if (now.tm_hour is 15) and (now.tm_min is 0) and (now.tm_sec is 0):
-        count_reset()
-    time.sleep(1.0)
+count_reset()
